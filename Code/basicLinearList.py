@@ -1,6 +1,6 @@
 # 함수 선언 부분
 def add_data(value):
-
+    # basicList에 None(빈) 공간 추가
     basicList.append(None)
     basicLen = len(basicList)
     basicList[basicLen-1] = value
@@ -43,20 +43,20 @@ if __name__=="__main__":
 
         select = int(input("선택하세요(1: 추가, 2: 삽입, 3: 삭제, 4: 종료)--> "))
 
-        if (select==1):
+        if (select == 1):
             data = input("추가할 데이터--> ")
             add_data(data)
             print(basicList)
-        elif (select==2):
+        elif (select == 2):
             pos = int(input("삽입할 위치--> "))
             data = input("추가할 데이터--> ")
             insert_data(pos, data)
             print(basicList)
-        elif (select==3):
+        elif (select == 3):
             pos = int(input("삭제할 위치--> "))
             delete_data(pos)
             print(basicList)
-        elif (select==4):
+        elif (select == 4):
             print(basicList)
             exit()
         else :
