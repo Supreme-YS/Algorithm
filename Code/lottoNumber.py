@@ -8,7 +8,7 @@ count = 0
 
 # 메인 코드
 print("로또 번호를 생성합니다")
-count = int(input('몇 번을 뽑을까요?'))
+count = int(input('몇 번을 뽑을까요 ? '))
 
 for _ in range(count):
     lotto = []
