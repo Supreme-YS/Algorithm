@@ -85,3 +85,38 @@ Sum, Diff = 0, 0
 if __name__ == "__main__":
     Sum, Diff = multi(100, 200) # 두 개의 변수를 통해 값을 담으면 된다.
     print("multi() ver2에서 반환한 값 ==> %d, %d" % (Sum, Diff))
+
+# Self Study 2-1
+# 100과 20의 더하기, 빼기, 곱하기, 몫, 나머지, 제곱이 출력되도록 프로그램 구현
+
+# 함수 구현 부분
+def multi(v1, v2):
+    CalList = []
+    Sum = v1 + v2
+    Diff = v1 - v2
+    Share = v1 // v2
+    Remain = v1 % v2
+    Square = v1 ** v2
+
+    CalList.append(Sum)
+    CalList.append(Diff)
+    CalList.append(Share)
+    CalList.append(Remain)
+    CalList.append(Square)
+
+    return CalList
+
+# 전역 변수 선언 부분
+myList = []
+Sum, Diff, Share, Remain, Square = 0, 0, 0, 0, 0
+
+# 메인 코드 부분
+if __name__ == "__main__":
+    myList = multi(100, 20)
+    Sum = myList[0]
+    Diff = myList[1]
+    Share = myList[2]
+    Remain = myList[3]
+    Square = myList[4]
+    print("multi()에서 반환한 값 \n Sum : %d \n Diff : %d \n Share : %d \n Remain : %d \n Square : %d"
+          %(Sum, Diff, Share, Remain, Square))
