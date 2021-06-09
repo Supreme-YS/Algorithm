@@ -49,3 +49,25 @@ a = 20 # 전역 변수
 func1() # 10 출력
 func2() # 10 출력
 ## 3행에서 global 예약어를 사용해서 a를 전역 변수로 지정했기 때문에 지역 변수 a는 존재하지 않는다. 따라서 모두 10 출력
+
+# Code02-04
+# 반환 값이 여러 개인 함수
+# 함수 선언 부분
+def multi(v1, v2):
+    retList = [] # 반환할 리스트
+    res1 = v1 + v2
+    res2 = v1 - v2
+    retList.append(res1)
+    retList.append(res2)
+    return retList # 값이 두 개가 들어있는 리스트 하나를 리턴하는 것이기 때문에 문법상 오류가 없다.
+
+# 전역 변수 선언 부분
+myList = []
+Sum, Diff = 0, 0
+
+# 메인 코드 부분 ( main 형태로 작성해 보았다. )
+if __name__ == "__main__":
+    myList = multi(100, 200)
+    Sum = myList[0]
+    Diff = myList[1]
+    print("multi()에서 반환한 값 ==> %d, %d" % (Sum, Diff))
