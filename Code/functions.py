@@ -8,7 +8,7 @@ def plus(v1, v2):
 # 전역 변수 선언 부분
 total = 0
 
-# 메인 코드 부분
+# 메인 코드 부분 ver1
 total = plus(100, 200)
 print("plus() 함수의 결과값 : %d" % total)
 
