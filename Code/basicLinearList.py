@@ -18,7 +18,7 @@ def insert_data(position, value):
     basicLen = len(basicList)
 
     # 삽입 원리 (맨 뒤에 빈 공간 추가 -> 끝에 위치 부터 하나씩 우측으로 shift -> 원하는 삽입 위치 까지)
-    # 따라서, 길이 끝에서 시작해서 지정 위치까지 한칸씩 줄여가면서 값 하나씩 할당
+    # 따라서, 길이 끝에서 시작해서 지정 위치까지 한칸씩 줄여가면서 값 하나씩 이동
     for i in range(basicLen-1, position, -1):
         basicList[i] = basicList[i-1]
         basicList[i-1] = None
@@ -31,11 +31,14 @@ def delete_data(position):
         return
 
     basicLen = len(basicList)
-
+    basicList[position] = None # 데이터 삭제
+    # 삭제 원리 (지정 위치 값 삭제 -> 지정 위치의 다음 값부터 왼쪽으로 shift -> 리스트 길이 만큼)
+    # 따라서, 지정 위치에서 시작해서 리스트 끝까지 한칸씩 줄여가면서 값 하나씩 이동
     for i in range(position+1, basicLen):
         basicList[i-1] = basicList[i]
         basicList[i] = None
 
+    # 배열 마지막 위치값 삭제
     del(basicList[basicLen-1])
 
 # 전역 변수 선언 부분
