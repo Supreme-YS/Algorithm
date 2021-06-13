@@ -12,6 +12,7 @@ def insert_data(position, value):
     if position < 0 or position > len(basicList):
         print("범위를 벗어났습니다.")
         return
+    
     # 초기 리스트에 빈 공간 추가
     basicList.append(None)
     # basicLen 변수에 현재 리스트의 길이(정수)를 할당
