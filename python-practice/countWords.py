@@ -21,17 +21,18 @@ poet = '''
 countDic = {}
 
 # 메인 코드 부분
-if __name__=="__main__":
+if __name__== "__main__":
     for ch in poet:
         if ch.isalpha(): # 영문자 또는 한글만 True를 반환 즉, 한 글자씩 체크하고 한글이나 영어일 때 True 반환
-            if ch in countDic:
-                countDic[ch] += 1
-            else :
-                countDic[ch] = 1
+            if ch in countDic: # 추출한 문자가 딕셔너리에 있으면
+                countDic[ch] += 1 # 개수 1개 증가
+            else : # 추출한 문자가 딕셔너리에 없으면
+                countDic[ch] = 1 # '문자':1 형식으로 딕셔너리에 추가한다.
+
     print('원문', poet)
     print('----------------------')
     print('문자 빈도수(4회 이상)')
     print('----------------------')
-    for key in countDic:
-        if countDic[key] >= 4:
+    for key in countDic: # for 문에서 key 값을 루프
+        if countDic[key] >= 4: # 딕셔너리[key]의 방법으로 values값에 접근
             print(key, '-->', countDic[key])
