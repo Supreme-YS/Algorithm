@@ -1,3 +1,4 @@
+# 선형 리스트의 일반 구현
 katok = []
 katok.append(None)
 
