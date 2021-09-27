@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="review code">
-      <change afterPath="$PROJECT_DIR$/python-practice/new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-practice/countWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-practice/countWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-practice/lottoNumber2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-practice/lottoNumber.py" afterDir="false" />
-    </list>
+    <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="review code :O" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632737271596</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="review code :O">
+      <created>1632738610581</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1632738610581</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +362,7 @@
     <MESSAGE value="add xml" />
     <MESSAGE value="test" />
     <MESSAGE value="review code" />
-    <option name="LAST_COMMIT_MESSAGE" value="review code" />
+    <MESSAGE value="review code :O" />
+    <option name="LAST_COMMIT_MESSAGE" value="review code :O" />
   </component>
 </project>
