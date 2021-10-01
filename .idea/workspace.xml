@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="Code Refactoring">
-      <change afterPath="$PROJECT_DIR$/codeup100/codeup100-python/codeup_26_to_50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeup100/codeup100-python/codeup_1_to_100.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeup100/codeup100-python/codeup_1_to_25.py" afterDir="false" />
-    </list>
+    <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
