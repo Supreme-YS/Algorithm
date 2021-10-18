@@ -11,8 +11,8 @@ public class MultiplyByThree {
 
         String text = Integer.toString(b);
 
-        for(int i= text.length(); i>0; i--){
-            temp = Integer.parseInt(text.substring(i-1, i));
+        for(int i=text.length(); i>0; i--){
+            temp = Integer.parseInt(text.substring(i-1, i)); // substring(begin index, end index)
             System.out.println(a * temp);
         }
         System.out.println(a*b);
