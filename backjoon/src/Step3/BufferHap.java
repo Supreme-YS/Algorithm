@@ -18,8 +18,8 @@ public class BufferHap {
             int a = Integer.parseInt(s.split(" ")[0]);
             int b = Integer.parseInt(s.split(" ")[1]);
             bw.write(a+b+"\n"); // 5. BufferedWriter에 써준다.
-            // 6. Buffer를 비워준다.
+
         }
-        bw.flush();
+        bw.flush();// 6. Buffer를 전송하고 Buffer를 비워준다.
     }
 }
