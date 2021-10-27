@@ -19,7 +19,7 @@ public class ImproveWhereMax {
 
         for (int value : arr){
             cnt++;
-            if(value >max){
+            if(value > max){
                 max = value;
                 index = cnt;
             }
