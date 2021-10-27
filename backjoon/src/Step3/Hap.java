@@ -13,6 +13,5 @@ public class Hap {
             b = input.nextInt();
             System.out.println(a + b);
         }
-
     }
 }
