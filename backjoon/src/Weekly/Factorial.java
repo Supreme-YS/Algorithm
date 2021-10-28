@@ -15,6 +15,7 @@ public class Factorial {
         }
         else {
             return fact(n-1) * n; // n * fact(n-1)
-        }
+        } // 메서드라서 스택에 저장이 된다. Call Stack
+        // 왜 재귀함수는 O(n)인가? 10/28 숙제
     }
 }
