@@ -11,7 +11,7 @@ public class Factorial {
 
     public static int fact(int n) { // 매개변수 n
         if (n <= 1) { // 1보다 작을 때 1 리턴
-            return n;
+            return 1;
         }
         else {
             return fact(n-1) * n; // n * fact(n-1)
