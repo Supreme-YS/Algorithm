@@ -16,8 +16,6 @@ public class UnderX2 {
 
         StringBuilder sb = new StringBuilder();
 
-        st = new StringTokenizer(br.readLine(), " ");
-
         for (int i = 0; i < n; i++) {
             int value = Integer.parseInt(st.nextToken());
 

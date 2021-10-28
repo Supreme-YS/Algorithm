@@ -10,7 +10,11 @@ public class WhileHap {
         while(input.hasNextInt()) {
             int a = input.nextInt();
             int b = input.nextInt();
-            System.out.println(a+b);
+            if (a == 0 && b == 0){
+                break;
+            } else {
+                System.out.println(a+b);
+            }
         }
     }
 }
