@@ -20,7 +20,7 @@ public class PlusCycle {
         while (true) {
             n = ((n % 10) * 10) + (((n / 10) + (n % 10)) % 10);
             cnt ++;
-            System.out.println(n);
+//            System.out.println(n);
             if (origin == n) {
                 break;
             }
