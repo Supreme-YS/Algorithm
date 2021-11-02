@@ -20,7 +20,7 @@ public class Average {
 
         for (int j=0; j < arr.length; j++) {
             arr[j] = arr[j] / (arr[arr.length-1]);
-            total = arr[j]
+            total = arr[j];
         }
     }
 }
