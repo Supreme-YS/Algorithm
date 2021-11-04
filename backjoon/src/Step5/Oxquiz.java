@@ -8,18 +8,34 @@ import java.util.Arrays;
 public class Oxquiz {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] s = br.readLine().split("");
+        StringBuilder sb = new StringBuilder();
 
-//        int tc = Integer.parseInt(br.readLine());
-        int total = 0;
+        int test_case = Integer.parseInt(br.readLine());
 
-        br.close();
+        String[] arr = new String[test_case];
 
-        for (String value : s) {
-            if (value.equals('O')){
-                System.out.println(value);
-            }
+        for (int i = 0; i < test_case; i++){
+            arr[i] = br.readLine();
         }
+
+        for (int i = 0; i < test_case; i++){
+
+            int cnt = 0;
+            int sum = 0;
+
+            for (int j = 0; j < arr[i].length(); j++) {
+
+                if (arr[i].charAt(j) == 'O') {
+                    cnt++;
+                } else {
+                    cnt = 0;
+                }
+                sum += cnt;
+            }
+
+            sb.append(sum).append('\n');
+        }
+        System.out.print(sb);
     }
 }
 
