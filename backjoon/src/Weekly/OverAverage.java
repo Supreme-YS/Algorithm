@@ -24,7 +24,6 @@ public class OverAverage {
             double sum = 0; // 성적 누적합
 
             /* 성적 입력 부분 */
-
             for(int j = 0; j < N; j ++){
                 int val = Integer.parseInt(st.nextToken());
                 arr[j] = val;
