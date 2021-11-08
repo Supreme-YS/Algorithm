@@ -4,11 +4,11 @@ package Step6;
 
 public class SelfNumber {
     public static void main(String[] args) {
-        System.out.println(search(30));
+        System.out.println(search(1));
     }
 
     static int search(int a) {
-        if (a <= 10000) {
+        if (a < 10000) {
             int origin = a;
             // 자릿수 체크
             int man = a / 10000;
@@ -20,7 +20,7 @@ public class SelfNumber {
             return search(origin + man + chun + baek + sip + il);
         }
 
-        if (a > 10000) {
+        if (a > 9999) {
             return 0;
         }
         return 0;
