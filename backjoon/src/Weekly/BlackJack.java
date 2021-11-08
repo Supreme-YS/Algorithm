@@ -1,3 +1,4 @@
+/* 백준 2798번 블랙잭 */
 package Weekly;
 
 import java.io.BufferedReader;
@@ -10,7 +11,7 @@ public class BlackJack {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        StringBuilder sb  = new StringBuilder();
+//        StringBuilder sb  = new StringBuilder();
 
         int N = Integer.parseInt(st.nextToken()); // 카드 갯수
         int M = Integer.parseInt(st.nextToken()); // 최대값, 넘으면 안됨
