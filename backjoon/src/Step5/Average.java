@@ -17,6 +17,10 @@ public class Average {
             arr[i] = sc.nextInt();
         }
         Arrays.sort(arr);
+<<<<<<< HEAD
+//        System.out.println(arr[arr.length - 1]); // arr.length -1 �� 諛곗뿴�쓽 理쒕�媛�
+=======
+>>>>>>> 94a942ba7d17f72bce3a4d7f1579b8c1c89e98dc
 
         for (int j=0; j < arr.length; j++) {
             arr[j] = arr[j] / (arr[arr.length-1]);
