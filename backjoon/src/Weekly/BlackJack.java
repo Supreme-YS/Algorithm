@@ -23,7 +23,9 @@ public class BlackJack {
 
         st = new StringTokenizer(br.readLine(), " "); // 새로운 토크나이저 생성
 
-        for (int i = 0; i < deck.length; i++) { deck[i] = Integer.parseInt(st.nextToken()); }
+        for (int i = 0; i < deck.length; i++) {
+            deck[i] = Integer.parseInt(st.nextToken());
+        }
 //      System.out.println(Arrays.toString(deck)); // 배열 값 확인
 
         int result = 0;

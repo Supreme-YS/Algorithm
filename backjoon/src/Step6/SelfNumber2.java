@@ -2,7 +2,7 @@ package Step6;
 
 public class SelfNumber2 {
     public static void main(String[] args) {
-        boolean[] check = new boolean[10001];	// 1부터 10000이므로
+        boolean[] check = new boolean[10001];	// 1부터 10000이므로 false
 
         for (int i = 1; i < 10001; i++){
             int n = d(i);
@@ -23,11 +23,11 @@ public class SelfNumber2 {
     }
 
     public static int d(int number){
-        int sum = number;
+        int sum = number; // 123 sum
 
-        while(number != 0){
-            sum = sum + (number % 10); // 첫 째 자리수
-            number = number/10;	// 10을 나누어 첫 째 자리를 없앤다
+        while(number != 0){ // 1
+            sum = sum + (number % 10); // 첫 째 자리수 // 3 + 123 = 126 // 126 + 2 = 128 // 128 + 1 = 129
+            number = number/10;	// 10을 나누어 첫 째 자리를 없앤다 12 // 1
         }
 
         return sum;
