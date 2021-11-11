@@ -14,7 +14,7 @@ public class ContinuousHap {
         int sum = 0;
 
         for(byte value : br.readLine().getBytes()) {
-            sum += (value - '0');	// 또는 (a-48)
+            sum += (value - '0');
         }
         System.out.print(sum);
     }
