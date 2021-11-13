@@ -29,13 +29,7 @@
 - [백준](https://www.acmicpc.net/)
 - [SWEA](https://swexpertacademy.com/main/main.do)
 - [프로그래머스](https://programmers.co.kr/learn/challenges)
-<br>  
-<!-- 
-## 🌱 디렉토리 및 파일 구조
-`플랫폼/카테고리(생략가능)/문제번호.문제명/자기이름_문제번호.java` 형식
-- 예시 1 : /programmers/2019KAKAO블라인드/오픈채팅방/chan.java
-- 예시 2 : /BOJ/22858.원상복구/chan.java
-<br>  
+
 
 ## 🥕 코드 리뷰  
 - [fork해서 Pull Request 보내는 법](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)  
