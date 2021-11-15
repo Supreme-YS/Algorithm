@@ -7,32 +7,32 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Hansu {
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.print(arithmetic_sequece(Integer.parseInt(br.readLine())));
+        System.out.print(arithmetic_sequence(Integer.parseInt(br.readLine())));
+
     }
 
-    public static int arithmetic_sequece(int num) {
-        int cnt = 0;
+    public static int arithmetic_sequence(int num) {
+        int cnt = 0; // 한수 카운팅
 
-        if(num < 100) {
+        if (num < 100) {
             return num;
         }
 
-        else { // 100이상의 수
+        else {
             cnt = 99;
-            if (num == 1000) {
+            if (num == 1000) { // 예외처리 필수
                 num = 999;
             }
 
-            for(int i = 100; i <= num; i++){
-                int back = i / 100;
-                int sip = (i / 100) % 10;
-                int il = i % 10;
+            for (int i = 100; i <= num; i++) {
+                int hun = i / 100; // 백의 자릿수
+                int ten = (i / 10) % 10; // 십의 자릿수
+                int one = i % 10;
 
-                if((back - sip) == (sip - il)){
+                if ((hun - ten) == (ten - one)) { // 각 자릿수가 수열을 이루면
                     cnt++;
                 }
             }
@@ -40,3 +40,4 @@ public class Hansu {
         return cnt;
     }
 }
+
