@@ -21,11 +21,11 @@ public class Bulk2 {
         }
 
         for (int i=0; i<arr.length; i++){
-            int rank = 1;
+            int rank = 1; // 이 부분을 몰랐음..어떻게 중복을 처리할 것인지에 대한 고민을 못했음
             for (int j=0; j<arr.length; j++){
                 if (i==j) continue;
 
-                else if (arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]){
+                else if (arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]){ // 몸무게는 몸무게끼리, 키는 키끼리
                     rank++;
                 }
             } System.out.printf("%d ", rank);
