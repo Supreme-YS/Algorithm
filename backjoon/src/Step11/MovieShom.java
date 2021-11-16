@@ -14,7 +14,7 @@ public class MovieShom {
 
         while (cnt != N) {
             num++;
-            if (String.valueOf(num).contains("666")) {
+            if (Integer.toString(num).contains("666")) {
                 cnt++;
             }
         }
