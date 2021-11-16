@@ -24,8 +24,14 @@ node5 = Node()
 node5.data = "지효"
 node4.link = node5
 
-print(node1.data, end=' ')
-print(node1.link.data, end=' ')
-print(node1.link.link.data, end=' ')
-print(node1.link.link.link.data, end=' ')
-print(node1.link.link.link.link.data, end=' ')
+newNode = Node()
+newNode.data = "재남"
+newNode.link = node2.link # 정연의 링크
+node2.link = newNode
+
+current = node1
+print(current.data, end=' ')
+
+while current.link != None :
+    current = current.link
+    print(current.data, end=' ')
