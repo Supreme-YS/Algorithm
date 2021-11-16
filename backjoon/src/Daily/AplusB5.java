@@ -1,23 +1,27 @@
-package Weekly;
+package Daily;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class AplusB7 {
+public class AplusB5 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
         StringTokenizer st;
+        StringBuilder sb = new StringBuilder();
+        String str;
 
-        int testCase = Integer.parseInt(br.readLine());
-
-        for (int i=1; i <= testCase; i++) {
-            st = new StringTokenizer(br.readLine()," ");
+        while ( (str=br.readLine()) != null ) {
+            st = new StringTokenizer(str, " ");
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
-            System.out.println("Case #"+i+":"+" "+(a+b));
+            if (a !=0 && b !=0){
+                sb.append(a+b).append("\n");
+            } else {
+                System.out.println(sb);
+                break;
+            }
         }
     }
 }

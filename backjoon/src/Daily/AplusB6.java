@@ -1,4 +1,4 @@
-package Weekly;
+package Daily;
 
 import java.io.BufferedReader;
 import java.io.IOException;

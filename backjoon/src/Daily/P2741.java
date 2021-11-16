@@ -1,17 +1,18 @@
-/* 11718 */
-package Weekly;
+/* 2741 */
+package Daily;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P11718 {
+public class P2741 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str;
 
-        while( (str=br.readLine()) != null ) {
-            System.out.println(str);
+        int N = Integer.parseInt(br.readLine());
+
+        for (int i=1; i <= N; i++) {
+            System.out.println(i);
         }
     }
 }
