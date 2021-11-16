@@ -14,7 +14,7 @@ public class P11720 {
         int sum = 0;
 
         for (int i=0; i<str.length(); i++) {
-            sum = sum + (int)str.charAt(i)-48;
+            sum = sum + str.charAt(i) - 48; // int + int = int // int + char = char가 자동 int 형변환
         }
         System.out.println(sum);
     }
