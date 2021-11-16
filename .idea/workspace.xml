@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="Code Refactoring">
-      <change afterPath="$PROJECT_DIR$/data-structure and algorithm for beginner/6. stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
