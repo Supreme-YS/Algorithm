@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="Code Refactoring">
+      <change afterPath="$PROJECT_DIR$/data-structure and algorithm for beginner/5-4. simpleLinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +51,8 @@
       <recent name="$PROJECT_DIR$/codeup100/codeup100-java" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.codeup_26_to_50">
-    <configuration name="4-3. linearList-insert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.5-4. simpleLinkedList">
+    <configuration name="5-1. simpleLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/4-3. linearList-insert.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/5-1. simpleLinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4-4. linearList-delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-2. simpleLinkedList-insert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/4-4. linearList-delete.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/5-2. simpleLinkedList-insert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4-5. basicLinearList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-3. simpleLinkedList-delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/4-5. basicLinearList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/5-3. simpleLinkedList-delete.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="codeup_1_to_25" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-4. simpleLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codeup100/codeup100-python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structure and algorithm for beginner" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codeup100/codeup100-python/codeup_1_to_25.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/5-4. simpleLinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="codeup_26_to_50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5. simpleLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codeup100/codeup100-python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structure and algorithm for beginner" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codeup100/codeup100-python/codeup_26_to_50.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/5. simpleLinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.codeup_26_to_50" />
-        <item itemvalue="Python.codeup_1_to_25" />
-        <item itemvalue="Python.4-5. basicLinearList" />
-        <item itemvalue="Python.4-4. linearList-delete" />
-        <item itemvalue="Python.4-3. linearList-insert" />
+        <item itemvalue="Python.5-4. simpleLinkedList" />
+        <item itemvalue="Python.5-3. simpleLinkedList-delete" />
+        <item itemvalue="Python.5-2. simpleLinkedList-insert" />
+        <item itemvalue="Python.5-1. simpleLinkedList" />
+        <item itemvalue="Python.5. simpleLinkedList" />
       </list>
     </recent_temporary>
   </component>
