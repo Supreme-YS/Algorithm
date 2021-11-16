@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a40d21-8963-480d-af06-232886c90a44" name="Default Changelist" comment="Code Refactoring">
-      <change afterPath="$PROJECT_DIR$/data-structure and algorithm for beginner/5-4. simpleLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure and algorithm for beginner/6. stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/codeup100/codeup100-java" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5-4. simpleLinkedList">
+  <component name="RunManager" selected="Python.6. stack">
     <configuration name="5-1. simpleLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5. simpleLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6. stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +148,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/5. simpleLinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure and algorithm for beginner/6. stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6. stack" />
         <item itemvalue="Python.5-4. simpleLinkedList" />
         <item itemvalue="Python.5-3. simpleLinkedList-delete" />
         <item itemvalue="Python.5-2. simpleLinkedList-insert" />
         <item itemvalue="Python.5-1. simpleLinkedList" />
-        <item itemvalue="Python.5. simpleLinkedList" />
       </list>
     </recent_temporary>
   </component>
