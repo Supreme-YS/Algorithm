@@ -10,12 +10,12 @@ public class MovieShom {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int num = 666;
-        int count = 1;
+        int cnt = 1;
 
-        while (count != N) {
+        while (cnt != N) {
             num++;
             if (String.valueOf(num).contains("666")) {
-                count++;
+                cnt++;
             }
         }
         System.out.println(num);

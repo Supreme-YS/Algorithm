@@ -1,4 +1,4 @@
-package Weekly;
+package Step10;
 
 import java.util.Scanner;
 
