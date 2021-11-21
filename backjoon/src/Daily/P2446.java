@@ -23,9 +23,9 @@ public class P2446 {
                 bw.write("*");
             }
 
-            for (int k = 1; k < i + 1; k++) {
-                bw.write(" ");
-            }
+//            for (int k = 1; k < i + 1; k++) {
+//                bw.write(" ");
+//            }
             bw.newLine();
         }
 
@@ -42,9 +42,9 @@ public class P2446 {
                 bw.write("*");
             }
 
-            for (int m = 1; m < N-j; m++ ) {
-                bw.write(" ");
-            }
+//            for (int m = 1; m < N-j; m++ ) {
+//                bw.write(" ");
+//            }
             bw.newLine();
         }
         bw.flush();
