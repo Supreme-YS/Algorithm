@@ -45,7 +45,7 @@ public class Problem42840 {
         }
         List<Integer> orderList = new ArrayList<>();
         int maxValue = Math.max(Math.max(one_cnt, two_cnt), three_cnt);
-
+        System.out.println("maxValue = " + maxValue);
         if (maxValue==one_cnt) {
             orderList.add(1);
         }
