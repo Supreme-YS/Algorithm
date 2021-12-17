@@ -6,5 +6,4 @@ public class Circle implements Shape {
     public void draw(String fillcolor) {
         System.out.println("Drawing Circle with color " + fillcolor);
     }
-
 }

@@ -10,7 +10,7 @@ public class Client {
         Shape cir = new Circle();
 
         Drawing drawing = new Drawing();
-        drawing.add(tri1);
+        drawing.add(tri);
         drawing.add(tri1);
         drawing.add(cir);
 
