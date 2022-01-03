@@ -32,9 +32,11 @@ public class P2578 {
     }
 
     private static boolean findBingo(int num, int cnt) {
-        for(int i = 0 ; i < 5; i++) {
+        for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
             }
         }
+        return true;
     }
+
 }
