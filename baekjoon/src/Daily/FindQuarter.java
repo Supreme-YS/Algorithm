@@ -7,6 +7,7 @@ public class FindQuarter {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int month = Integer.parseInt(br.readLine());
         System.out.println(findQuater(month));
+
     }
 
     public static int findQuater(int month) {
