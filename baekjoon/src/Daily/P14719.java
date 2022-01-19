@@ -9,35 +9,37 @@ public class P14719 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        int H = Integer.parseInt(st.nextToken());
-        int W = Integer.parseInt(st.nextToken());
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        Boolean[][] map = new Boolean[H][W];
+        int h = Integer.parseInt(st.nextToken());
+        int w = Integer.parseInt(st.nextToken());
 
-        String[] blocks = br.readLine().split(" ");
+        st = new StringTokenizer(br.readLine());
 
-        // blocks의 length는 어차피 W의 값과 같음
-        // W로 치환이 가능
-        for (int j = 0; j < blocks.length; j++) {
-            int blockIndex = Integer.parseInt(blocks[j]);
-            for (int i = 0; i < blockIndex; i++) {
-                map[i][j] = true;
+        boolean[][] map = new boolean[h][w];
+
+        //입력 처리
+        for (int c = 0; c < w; c++) {
+            int b = Integer.parseInt(st.nextToken());
+            for (int r = 0; r < b; r++) {
+                map[h - r - 1][c] = true;
             }
         }
 
         int result = 0;
-        for (int j = 0; j < blocks.length; j++) {
-            int blockIndex = Integer.parseInt(blocks[j]);
-            for (int i = 0; i < blockIndex; i++) {
-                int temp = 0;
-                for (int k = j + 1; k < W; k++) {
-                    if (!map[i][k]) {
-                        temp++;
+
+        for (int r = 0; r < h; r++) {
+            int left = 0;
+            boolean flag = false;
+
+            for (int c = 0; c < w; c++) {
+                if (map[r][c]) {
+                    if (flag) {
+                        result += c - left - 1;
                     } else {
-                        result += temp;
-                        break;
+                        flag = true;
                     }
+                    left = c;
                 }
             }
         }
