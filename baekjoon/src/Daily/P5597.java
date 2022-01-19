@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 public class P5597 {
     public static void main(String[] args) throws IOException {
 
-        // 기본값이 fault
         boolean[] booleans = new boolean[31];
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
