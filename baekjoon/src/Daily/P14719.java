@@ -11,35 +11,37 @@ public class P14719 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int h = Integer.parseInt(st.nextToken());
-        int w = Integer.parseInt(st.nextToken());
+        int height = Integer.parseInt(st.nextToken());
+        int width = Integer.parseInt(st.nextToken());
 
         st = new StringTokenizer(br.readLine());
 
-        boolean[][] map = new boolean[h][w];
+        boolean[][] map = new boolean[height][width];
 
-        //입력 처리
-        for (int c = 0; c < w; c++) {
+        // Blocks 입력 처리
+        for (int col = 0; col < width; col++) {
             int b = Integer.parseInt(st.nextToken());
-            for (int r = 0; r < b; r++) {
-                map[h - r - 1][c] = true;
+            for (int row = 0; row < b; row++) {
+                map[height - row - 1][col] = true;
             }
         }
 
+        // 결과 처리 부분
+
         int result = 0;
 
-        for (int r = 0; r < h; r++) {
+        for (int row = 0; row < height; row++) {
             int left = 0;
             boolean flag = false;
 
-            for (int c = 0; c < w; c++) {
-                if (map[r][c]) {
+            for (int col = 0; col < width; col++) {
+                if (map[row][col]) {
                     if (flag) {
-                        result += c - left - 1;
+                        result += col - left - 1;
                     } else {
                         flag = true;
                     }
-                    left = c;
+                    left = col;
                 }
             }
         }
