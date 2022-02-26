@@ -8,7 +8,6 @@ public class WrongBananaMilk {
         if (melonBread==true) { // 메론빵이 있으면
             bananaMilk = 4; // 네개 산다
         }
-
         System.out.println(bananaMilk); // 결과 값 : 4
     }
 }
