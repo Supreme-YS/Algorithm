@@ -32,7 +32,11 @@ public class OOP {
         farmMachine.price = 10000;
         farmMachine.color = "red";
         farmMachine.year = 2022;
-        
+
+        // comma로 값 찍히
+        String fmPrice = String.format("%,d", farmMachine.price);
+        // comma 값 출력
+        System.out.println("fmPrice = " + fmPrice);
         // 속성값 출력하기
         System.out.println("farmMachine.price = " + farmMachine.price);
         System.out.println("farmMachine.color = " + farmMachine.color);
