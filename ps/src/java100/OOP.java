@@ -33,7 +33,6 @@ public class OOP {
         farmMachine.color = "red";
         farmMachine.year = 2022;
 
-        // comma로 값 찍히
         String fmPrice = String.format("%,d", farmMachine.price);
         // comma 값 출력
         System.out.println("fmPrice = " + fmPrice);
