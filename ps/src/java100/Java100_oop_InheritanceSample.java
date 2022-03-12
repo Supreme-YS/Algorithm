@@ -44,9 +44,19 @@ class Villain {
 
 }
 
-
 public class Java100_oop_InheritanceSample {
     public static void main(String[] args) {
 
+        Person p1 = new Person();
+        p1.walk();
+
+        Hero superman = new Hero("슈퍼맨", 30);
+        System.out.println(superman.name);
+        System.out.println(superman.age);
+
+        System.out.println(superman.gender); // 부모 필드
+        System.out.println(superman.power);  // 부모 필드
+
+        superman.walk();
     }
 }
